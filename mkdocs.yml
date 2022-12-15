@@ -1,0 +1,37 @@
+site_name: TensorFlow Developer Certificate Exam Preperation Projects
+
+repo_url: https://github.com/ARGF0RCE/tf_developer_exam_prep
+repo_name: ARGF0RCE/tf_developer_exam_prep
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+  palette:
+    primary: black
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+ - mkdocs-jupyter
+ - search
+ 
+
+edit_uri: ""
+
+nav:
+- Home: 'index.md'
+- Mini-Projects:
+    - Computer Vision:
+        - 'Project 00 Food Vision Big': 'food_vision_big.ipynb'
+        - 'Project 01 Dog Breed Classification': 'dog_breed_classification.ipynb'
+    - NLP:
+        - 'Project 02 SkimLit': 'skimlit.ipynb'
+    - Time Series:
+        - 'Project 03 BitPredict': 'bitpredict.ipynb'
