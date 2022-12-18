@@ -30,4 +30,4 @@ jobs:
       - run: pip install mkdocs-jupyter
       - run: pip install jupyter
       - run: cp mini_projects/*/*.ipynb docs/ # copy all the notebooks to the folder
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force --site-dir tf-dev-exam-prep
